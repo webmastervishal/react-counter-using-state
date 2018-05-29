@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './styles/styles.css';
 import reactImg from './images/react.png';
 
+import Counter from './components/Counter';
+
 const jsx = (
     <div>
-        <img src={reactImg} />
-        <h1>React & Node Boilerplate</h1>
-        <p>Ready to use with webpack & babel pre-configured.</p>
+        <Counter />
     </div>
 );
 
